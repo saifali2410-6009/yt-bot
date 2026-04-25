@@ -1,0 +1,42 @@
+{
+  "name": "AI YouTube Bot",
+  "short_name": "AI YT Bot",
+  "description": "Automated YouTube channel — scripts, voiceover, video and publishing from your phone",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#05090f",
+  "theme_color": "#05090f",
+  "lang": "en",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Run Pipeline",
+      "short_name": "Run",
+      "url": "./index.html",
+      "description": "Run the full automation pipeline"
+    },
+    {
+      "name": "Generate Script",
+      "short_name": "Script",
+      "url": "./index.html#script",
+      "description": "Generate a video script"
+    }
+  ],
+  "prefer_related_applications": false
+}
